@@ -1,12 +1,30 @@
+
+/*ALL SCREENS-----------------------------------*/
+
+body{
+    background-color: #f1f1f1;    
+}
+
+
 header{
     background-color: #53A8BB;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'BioRhyme';
     text-align: center;
     color: #FCFCFC;
+    position: fixed;
+    width: 100%;
 }
+
+main{
+    padding-top: 150px;
+}
+
+/*Navigation Bar--------------------*/
 
 nav{
     background-color: #53A8BB;
+    /*position: fixed;*/
+    width: 100%;
 }
 
 nav> ul{
@@ -15,20 +33,265 @@ nav> ul{
 
 
 nav> ul > li{
-    display:inline-block;
+    display:inline;
     font-size: 25px;
     padding: 5px;
 }
 
-nav> ul > li > a{
+
+.navigation_bar_item{
     text-decoration:none;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'BioRhyme';
+}
+
+.navigation_bar_item:hover{
+    color: rgb(9, 112, 175);
 }
 
 
+/*--------------------------*/
+
+
+h2{
+    color: #53A8BB;
+    text-align:center;
+    font-family: 'BioRhyme';
+    text-decoration: underline;
+}
+
+
+h3, h4{
+    color: #53A8BB;
+    text-align:left;
+    font-family: 'BioRhyme';
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'BioRhyme';
+    color: black;
+    text-align:justify;
+}
+
+.page_description{
+    text-align:center;
+    font-family: 'BioRhyme';
+    font-style: italic;
+}
 
 
 footer{
+    background-color: #53A8BB;
+}
+
+footer>p{
+    color: white;
     text-align: center;
 }
+
+
+/*--------------------------------------------*/
+
+
+
+
+
+/*HOME SCEEN(WELCOME)(INDES)------------------*/
+
+.main_welcome_screen{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+#welcome_image{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 black;
+}
+
+
+
+/*--------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*ABOUT_ME SCREEN------------------------------*/
+
+
+
+/*Table Style---------------------*/
+
+#about_me_table{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #53A8BB;;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.table_header{
+    border-width: 3px;
+    border-color: #53A8BB;
+    background-color:  #53A8BB;
+    border-style: solid;
+    color: white;
+}
+
+.even_row{ /*par*/
+    background-color:  white;
+    color: black;
+}
+
+.odd_row{ /*impar*/
+    background-color:  #aff0ff;
+    color: black;
+}
+
+/*---------------------*/
+
+
+
+/*--------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*EXPERIENCE SCREEN----------------------------*/
+
+
+.experience_link_index{
+    color:  #6fbfd2;
+    font-family: 'BioRhyme';
+}
+
+
+.experience_index_list{
+    color:  #6fbfd2;
+    font-family: 'BioRhyme';
+}
+
+.labour_experience_box{
+margin-top: 20px;
+background-color: aquamarine;
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px;
+background-image: linear-gradient(#6fd280, #dfef91);
+}
+
+.study_experience_box{
+margin-top: 20px;
+background-color: aquamarine;
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px;
+background-image: linear-gradient(#f0ac95, #f7b768);
+}
+
+.achivements_box{
+margin-top: 20px;
+background-color: aquamarine;
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px;
+background-image: linear-gradient(#f0ac95, #f7b768);
+}
+
+
+.own_projects_box{
+margin-top: 20px;
+background-color: aquamarine;
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px;
+background-image: linear-gradient(#bbf095, #f8abd0);
+}
+
+.experience_lu{
+    color:  white;
+    font-family: 'BioRhyme';
+}
+
+
+.experience_ol{
+    color:  white;
+    font-family: 'BioRhyme';
+}
+
+
+
+
+/*--------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INTEREST SCREEN----------------------------*/
+
+/*VIDEO----------------------*/
+
+iframe{
+    width: 400px;
+    height: 200px;
+}
+/*--------------------------*/
+
+.interest_images{
+    width: 400px;
+    height: 200px;
+}
+
+
+.recom_links{
+    color:  #6fbfd2;
+    font-family: 'BioRhyme';
+    font-size: 20px;
+}
+
+
+/*--------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
